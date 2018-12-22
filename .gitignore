@@ -14,3 +14,12 @@ build
 # My configurations:
 db.ini
 deploy_key_rsa
+
+# Virtualenv
+Djenv/
+
+# VSCODE
+.vscode/
+
+# migrate
+db.sqlite3
