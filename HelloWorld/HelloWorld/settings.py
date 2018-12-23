@@ -31,7 +31,8 @@ ALLOWED_HOSTS = ['127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    #'bootstrap_admin',
+    'django.contrib.admin',     # 后台管理功能
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
