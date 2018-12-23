@@ -22,4 +22,4 @@ Djenv/
 .vscode/
 
 # migrate
-db.sqlite3
+HelloWorld/db.sqlite3
