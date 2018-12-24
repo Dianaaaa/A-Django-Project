@@ -31,4 +31,5 @@ urlpatterns = [
     url(r'^hello$', view.hello),
     url(r'^admin/', admin.site.urls),
     url(r'^([0-9]*)/$', views.detail, name='detail'),  # 括号里的将作为request的参数传进去
+    url(r'^test/$', views.test)
 ]

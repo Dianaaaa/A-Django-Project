@@ -3,7 +3,8 @@
 
 ------更新中-------
 
-## Django配置mysql
+## 附录
+### Django配置mysql
 
 ```python
 DATABASES = {
@@ -16,4 +17,12 @@ DATABASES = {
         'PORT': '3306',
     }
 }
+```
+
+在__init__.py中添加：
+
+```python
+import pymysql
+
+pymysql.install_as_MySQLdb()
 ```
